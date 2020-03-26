@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+header{}
+.container{
+    width: 1700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 50%;
+    /* background: cornflowerblue; */
+}
+.logo img{
+    
+}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+    /* background: darkgoldenrod; */
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px;
+    display: block;
+}
+section{
+
+    background-image: url(../images/s1.jpg);
+         padding top: 350px;
+         padding-bottom: 300px;
+         padding-top: 300px;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-position-y: top;
+}
+
+.section-one{
+         background-image: url(../images/s1.jpg);
+         padding top: 350px;
+         padding-bottom: 300px;
+         padding-top: 300px;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-position-y: top;
+}
+.section-two{
+    background-image: url(../images/s2.jpg);
+}
+.section-three{
+    background-image: url(../images/s3.jpg);
+}
+.section-four{
+    background-image: url(../images/s4.jpg);
+}
+.section-five{
+    background-image: url(../images/s5.jpg);
+}
+.section-six{
+    background-image: url(../images/s6.jpg);
+}
+
+h1{
+
+font-size: 56px;
+
+color: white;
+
+background: #381515;
+
+width: 600px;
+
+margin: auto;
+
+padding: 30px 0;
+
+text-align: center;
+}
+
